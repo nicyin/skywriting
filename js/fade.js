@@ -4,11 +4,11 @@ function fade(output, options) {
     }
 
     var defaults = {
-        timer: 1200,
+        timer: 2000,
         duration: 4000,
         fontsize: 32,
         color: '#ffffff',
-        delay: 200,
+        //delay: 200,
         maxblur: 8
     }
 
@@ -27,10 +27,15 @@ function fade(output, options) {
     var groups = [];
 
     function addWord(letters){
-        stroke.push(letters); //vs concat.()
+        //stroke.push(letters); //vs concat.()
+
+        groups.push({
+            letters: letters,
+            endedAt: Date.now()
+        });
     }
 
-    function endStroke() {
+    /*function endStroke() {
         if(stroke.length === 0) return;
         
         stroke.forEach(function(letters, i){
@@ -41,7 +46,7 @@ function fade(output, options) {
         })
 
         stroke = [];
-    }
+    }*/
 
     function render() {
 
@@ -57,10 +62,10 @@ function fade(output, options) {
             });
         }
 
-        ctx.globalAlpha = 1;
+        /*ctx.globalAlpha = 1;
         stroke.forEach(function(letters) {
             drawLetters(letters);
-        });
+        });*/
 
         var now = Date.now();
 
@@ -93,7 +98,7 @@ function fade(output, options) {
 
     return {
         addWord: addWord,
-        endStroke: endStroke,
+        //endStroke: endStroke,
         render: render,
         setupStyles: setupStyles
     }
