@@ -3,7 +3,7 @@ var words1 = [
 ]
 
 var words2 = [
-    'The', 'instruction', 'was', 'written', 'on', 'a', 'card', 'by', 'some', 'famous', 'artist', 'and', 'forgotten', 'for', '40', 'years', 'Today', 'they', 'gather', 'in', 'a', 'hipster', 'backyard', 'one', 'hand', 'holding', 'lukewarm', 'white', 'wine', 'served', 'in', 'cheap', 'plastic', 'the', 'other', 'name', 'dropping', 'this-or-that', 'installation', 'they', 'saw', 'of', 'this', 'famous', 'artist', 'shame', 'they', 'didn’t', 'do', 'it', 'then', 'this', 'land', 'art', 'piece', 'in', 'the', 'air', '—', 'yes', 'yes', 'wasn’t', 'it', 'brilliant'
+    'The', 'instruction', 'was', 'written', 'on', 'a', 'card', 'by', 'some', 'famous', 'artist', 'and', 'forgotten', 'for', '40', 'years', 'Today', 'they', 'gather', 'in', 'a', 'hipster', 'backyard', 'one', 'hand', 'holding', 'lukewarm', 'white', 'wine', 'served', 'in', 'cheap', 'plastic', 'name', 'dropping', 'this-or-that', 'installation', 'they', 'saw', 'of', 'this', 'famous', 'artist', 'shame', 'they', 'didn’t', 'do', 'it', 'then', 'this', 'land', 'art', 'piece', 'in', 'the', 'air', '—', 'yes', 'yes', 'wasn’t', 'it', 'brilliant'
 ]
 
 var words3 = [
