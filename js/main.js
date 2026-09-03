@@ -85,8 +85,8 @@ var write = placeText(textCanvas, Object.assign({ onWord: disappear.addWord }, t
 //draw.js: drawing()
 var draw = drawing(drawCanvas, function(points) {
   write.update(points);
-  }, function() {
-  disappear.endStroke();
+  //}, function() {
+  //disappear.endStroke();
 });
 
 window.addEventListener('resize', function() {
